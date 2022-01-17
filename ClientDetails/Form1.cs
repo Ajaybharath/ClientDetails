@@ -27,6 +27,7 @@ namespace ClientDetails
             string subDomain = string.Empty;
             for (int i = 1; i < 10; i++)
             {
+
                 try
                 {
                     conSqlMain = Convert.ToString(ConfigurationManager.ConnectionStrings["ConnectionString" + i]);
@@ -52,18 +53,18 @@ namespace ClientDetails
                             Name.Value = clientsData.Tables[0].Rows[cd]["ClientName"];
                             sqlCommand.Parameters.Add(Name);
                             subdomain = new SqlParameter("Subdomain", SqlDbType.VarChar);
-                            subdomain.Value = clientsData.Tables[0].Rows[cd]["DomainName"];
-                            sqlCommand.Parameters.Add(subdomain);
-                            //if (subDomain.ToString() == "vignaninstruments")
-                            //{
-                            //    subdomain.Value = "web";
-                            //    sqlCommand.Parameters.Add(subdomain);
-                            //}
-                            //else
-                            //{
-                            //    subdomain.Value = clientsData.Tables[0].Rows[cd]["DomainName"];
-                            //    sqlCommand.Parameters.Add(subdomain);
-                            //}
+                            //subdomain.Value = clientsData.Tables[0].Rows[cd]["DomainName"];
+                            //sqlCommand.Parameters.Add(subdomain);
+                            if (subDomain.ToString() == "vignaninstruments")
+                            {
+                                subdomain.Value = "web";
+                                sqlCommand.Parameters.Add(subdomain);
+                            }
+                            else
+                            {
+                                subdomain.Value = clientsData.Tables[0].Rows[cd]["DomainName"];
+                                sqlCommand.Parameters.Add(subdomain);
+                            }
                             Domain = new SqlParameter("domain", SqlDbType.VarChar);
                             Domain.Value = clientsData.Tables[0].Rows[cd]["IoTDomain"];
                             sqlCommand.Parameters.Add(Domain);
@@ -84,6 +85,7 @@ namespace ClientDetails
                 catch (Exception ex)
                 {
                     ex = null;
+                    
                     break;
                 }
             }
