@@ -1,0 +1,10 @@
+C:\Users\AjayBharath\source\repos\ClientDetails\ClientDetails\bin\Debug\ClientDetails.exe.config
+C:\Users\AjayBharath\source\repos\ClientDetails\ClientDetails\bin\Debug\ClientDetails.exe
+C:\Users\AjayBharath\source\repos\ClientDetails\ClientDetails\bin\Debug\ClientDetails.pdb
+C:\Users\AjayBharath\source\repos\ClientDetails\ClientDetails\obj\Debug\ClientDetails.csproj.AssemblyReference.cache
+C:\Users\AjayBharath\source\repos\ClientDetails\ClientDetails\obj\Debug\ClientDetails.Form1.resources
+C:\Users\AjayBharath\source\repos\ClientDetails\ClientDetails\obj\Debug\ClientDetails.Properties.Resources.resources
+C:\Users\AjayBharath\source\repos\ClientDetails\ClientDetails\obj\Debug\ClientDetails.csproj.GenerateResource.cache
+C:\Users\AjayBharath\source\repos\ClientDetails\ClientDetails\obj\Debug\ClientDetails.csproj.CoreCompileInputs.cache
+C:\Users\AjayBharath\source\repos\ClientDetails\ClientDetails\obj\Debug\ClientDetails.exe
+C:\Users\AjayBharath\source\repos\ClientDetails\ClientDetails\obj\Debug\ClientDetails.pdb
