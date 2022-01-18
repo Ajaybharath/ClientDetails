@@ -8,3 +8,13 @@ C:\Users\AjayBharath\source\repos\ClientDetails\ClientDetails\obj\Debug\ClientDe
 C:\Users\AjayBharath\source\repos\ClientDetails\ClientDetails\obj\Debug\ClientDetails.csproj.CoreCompileInputs.cache
 C:\Users\AjayBharath\source\repos\ClientDetails\ClientDetails\obj\Debug\ClientDetails.exe
 C:\Users\AjayBharath\source\repos\ClientDetails\ClientDetails\obj\Debug\ClientDetails.pdb
+D:\Project(Git)\ClientDetails\ClientDetails\bin\Debug\ClientDetails.exe.config
+D:\Project(Git)\ClientDetails\ClientDetails\bin\Debug\ClientDetails.exe
+D:\Project(Git)\ClientDetails\ClientDetails\bin\Debug\ClientDetails.pdb
+D:\Project(Git)\ClientDetails\ClientDetails\obj\Debug\ClientDetails.csproj.AssemblyReference.cache
+D:\Project(Git)\ClientDetails\ClientDetails\obj\Debug\ClientDetails.Form1.resources
+D:\Project(Git)\ClientDetails\ClientDetails\obj\Debug\ClientDetails.Properties.Resources.resources
+D:\Project(Git)\ClientDetails\ClientDetails\obj\Debug\ClientDetails.csproj.GenerateResource.cache
+D:\Project(Git)\ClientDetails\ClientDetails\obj\Debug\ClientDetails.csproj.CoreCompileInputs.cache
+D:\Project(Git)\ClientDetails\ClientDetails\obj\Debug\ClientDetails.exe
+D:\Project(Git)\ClientDetails\ClientDetails\obj\Debug\ClientDetails.pdb

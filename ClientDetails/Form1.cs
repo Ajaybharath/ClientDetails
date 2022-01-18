@@ -37,7 +37,7 @@ namespace ClientDetails
                         SqlDataAdapter da = new SqlDataAdapter("select * from clientdetails", cnMain);
                         da.Fill(clientsData);
                     }
-                    SqlConnection connection = new SqlConnection("uid=sa;pwd=Ide@123;database=AB;server=AJAYBHARATH\\SQLEXPRESS");
+                    SqlConnection connection = new SqlConnection("uid=sa;pwd=Ide@123;database=AB;server=DESKTOP-FMJB5MP");
                     SqlCommand sqlCommand = new SqlCommand("proc_ClientData", connection);
                     sqlCommand.CommandType = CommandType.StoredProcedure;
                     SqlParameter Name, subdomain, Domain, APIListener, MQTTListenerTopic, portalUrl;
@@ -53,18 +53,18 @@ namespace ClientDetails
                             Name.Value = clientsData.Tables[0].Rows[cd]["ClientName"];
                             sqlCommand.Parameters.Add(Name);
                             subdomain = new SqlParameter("Subdomain", SqlDbType.VarChar);
-                            //subdomain.Value = clientsData.Tables[0].Rows[cd]["DomainName"];
-                            //sqlCommand.Parameters.Add(subdomain);
-                            if (subDomain.ToString() == "vignaninstruments")
-                            {
-                                subdomain.Value = "web";
-                                sqlCommand.Parameters.Add(subdomain);
-                            }
-                            else
-                            {
-                                subdomain.Value = clientsData.Tables[0].Rows[cd]["DomainName"];
-                                sqlCommand.Parameters.Add(subdomain);
-                            }
+                            subdomain.Value = clientsData.Tables[0].Rows[cd]["DomainName"];
+                            sqlCommand.Parameters.Add(subdomain);
+                            //if (subDomain.ToString() == "vignaninstruments")
+                            //{
+                            //    subdomain.Value = "web";
+                            //    sqlCommand.Parameters.Add(subdomain);
+                            //}
+                            //else
+                            //{
+                            //    subdomain.Value = clientsData.Tables[0].Rows[cd]["DomainName"];
+                            //    sqlCommand.Parameters.Add(subdomain);
+                            //}
                             Domain = new SqlParameter("domain", SqlDbType.VarChar);
                             Domain.Value = clientsData.Tables[0].Rows[cd]["IoTDomain"];
                             sqlCommand.Parameters.Add(Domain);
